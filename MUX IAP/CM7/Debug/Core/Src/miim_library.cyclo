@@ -1,0 +1,15 @@
+../Core/Src/miim_library.c:36:6:delay_us	2
+../Core/Src/miim_library.c:47:13:GPIO_SET_MDIO_MODE_INPUT	1
+../Core/Src/miim_library.c:71:13:GPIO_SET_MDIO_MDC_MODE_INPUT	1
+../Core/Src/miim_library.c:93:13:GPIO_SET_MODE_NORMAL	1
+../Core/Src/miim_library.c:111:6:_MIIM_DRIVER_CLOCK_PULSE	1
+../Core/Src/miim_library.c:124:6:_MIIM_DRIVER_START	2
+../Core/Src/miim_library.c:144:6:_MIIM_DRIVER_OP_CODE_READ	1
+../Core/Src/miim_library.c:157:6:_MIIM_DRIVER_OP_CODE_WRITE	1
+../Core/Src/miim_library.c:172:6:_MIIM_DRIVER_PHY_REG_OUTPUT	3
+../Core/Src/miim_library.c:192:6:_MIIM_DRIVER_TA_WRITE	1
+../Core/Src/miim_library.c:202:6:_MIIM_DRIVER_TA_READ	1
+../Core/Src/miim_library.c:217:6:_MIIM_DRIVER_WRITE_DATA	2
+../Core/Src/miim_library.c:235:10:_MIIM_DRIVER_READ_DATA	2
+../Core/Src/miim_library.c:259:6:MIIM_DRIVER_WRITE	1
+../Core/Src/miim_library.c:274:10:MIIM_DRIVER_READ	1

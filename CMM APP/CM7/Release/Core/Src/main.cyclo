@@ -1,0 +1,7 @@
+../Core/Src/main.c:652:6:StartDefaultTask	3
+../Core/Src/main.c:38:5:_write	5
+../Core/Src/main.c:243:6:SystemClock_Config	5
+../Core/Src/main.c:115:5:main	19
+../Core/Src/main.c:621:6:HAL_GPIO_EXTI_Callback	3
+../Core/Src/main.c:783:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:800:6:Error_Handler	1

@@ -1,0 +1,6 @@
+../Core/Src/serial_comm.c:25:6:UART_DMA_Init	8	static
+../Core/Src/serial_comm.c:38:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/serial_comm.c:56:6:HAL_UART_RxHalfCpltCallback	16	static
+../Core/Src/serial_comm.c:75:6:Process_DMA_RxData	24	static
+../Core/Src/serial_comm.c:90:6:Serial_Send	16	static
+../Core/Src/serial_comm.c:115:6:Switch_RS_Mode	16	static

@@ -1,0 +1,17 @@
+../Core/Src/tws_driver.c:31:6:TWS_WAIT	0	static
+../Core/Src/tws_driver.c:40:6:delay_us	0	static
+../Core/Src/tws_driver.c:53:6:GPIO_SET_TWS_MODE_INPUT	32	static
+../Core/Src/tws_driver.c:65:6:GPIO_SET_MODE_NORMAL	32	static
+../Core/Src/tws_driver.c:79:6:_TWS_DRIVER_CLOCK_PULSE	8	static
+../Core/Src/tws_driver.c:90:6:_TWS_DRIVER_START	8	static
+../Core/Src/tws_driver.c:107:6:_TWS_DRIVER_OP_CODE_READ	8	static
+../Core/Src/tws_driver.c:118:6:_TWS_DRIVER_OP_CODE_WRITE	8	static
+../Core/Src/tws_driver.c:131:6:_TWS_DRIVER_SWITCH_REG_OUTPUT	16	static
+../Core/Src/tws_driver.c:151:6:_TWS_DRIVER_TA_WRITE	0	static
+../Core/Src/tws_driver.c:159:6:_TWS_DRIVER_TA_READ	8	static
+../Core/Src/tws_driver.c:173:6:_TWS_DRIVER_WRITE_DATA	16	static
+../Core/Src/tws_driver.c:187:10:_TWS_DRIVER_READ_DATA	40	static
+../Core/Src/tws_driver.c:220:6:TWS_DRIVER_WRITE	16	static
+../Core/Src/tws_driver.c:233:10:TWS_DRIVER_READ	8	static
+../Core/Src/tws_driver.c:252:10:TWS_PHY_READ	16	static
+../Core/Src/tws_driver.c:288:6:TWS_PHY_WRITE	24	static

@@ -1,0 +1,4 @@
+../Core/Src/verification.c:32:10:CalculateCRC32	3
+../Core/Src/verification.c:53:6:StoreCRC32	1
+../Core/Src/verification.c:66:5:VerifyCRC32	1
+../Core/Src/verification.c:83:5:VerifyDigitalSignature	1

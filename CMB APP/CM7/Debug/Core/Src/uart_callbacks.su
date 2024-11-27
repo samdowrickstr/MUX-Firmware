@@ -1,0 +1,3 @@
+../Core/Src/uart_callbacks.c:8:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/uart_callbacks.c:18:6:HAL_UART_RxHalfCpltCallback	16	static
+../Core/Src/uart_callbacks.c:27:6:HAL_UART_ErrorCallback	16	static

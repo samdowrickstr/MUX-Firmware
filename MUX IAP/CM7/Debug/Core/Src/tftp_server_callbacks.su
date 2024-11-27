@@ -1,0 +1,4 @@
+../Core/Src/tftp_server_callbacks.c:36:7:tftp_open	32	static
+../Core/Src/tftp_server_callbacks.c:60:6:tftp_close	16	static
+../Core/Src/tftp_server_callbacks.c:74:5:tftp_read	24	static
+../Core/Src/tftp_server_callbacks.c:92:5:tftp_write	544	static

@@ -1,0 +1,4 @@
+../LWIP/App/lwip.c:293:13:ethernet_link_status_updated	1
+../LWIP/App/lwip.c:97:12:read_gpio_pin_stable.constprop	2
+../LWIP/App/lwip.c:60:6:MX_LWIP_Init	5
+../LWIP/App/lwip.c:271:6:MX_LWIP_Process	2

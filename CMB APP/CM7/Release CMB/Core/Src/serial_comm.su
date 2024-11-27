@@ -1,0 +1,8 @@
+../Core/Src/serial_comm.c:123:6:Switch_RS_Mode.part.0	8	static
+../Core/Src/serial_comm.c:27:6:UART_DMA_Init	8	static
+../Core/Src/serial_comm.c:70:6:Serial_UART_ErrorCallback	0	static
+../Core/Src/serial_comm.c:83:6:Process_DMA_RxData	16	static
+../Core/Src/serial_comm.c:40:6:Serial_UART_RxCpltCallback	0	static
+../Core/Src/serial_comm.c:57:6:Serial_UART_RxHalfCpltCallback	0	static
+../Core/Src/serial_comm.c:98:6:Serial_Send	16	static
+../Core/Src/serial_comm.c:123:6:Switch_RS_Mode	8	static
