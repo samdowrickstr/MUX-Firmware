@@ -148,7 +148,9 @@ static void mqtt_connection_cb(mqtt_client_t *client, void *arg, mqtt_connection
         // Handle connection failure or disconnection
 //        LWIP_PLATFORM_DIAG(("MQTT client \"%s\" failed to connect or disconnected with status %d. Reconnecting...\n", client_info->client_id, status));
         // Implement reconnection logic here
-        mqtt_example_init();  // Call the init function to reconnect
+        mqtt_disconnect(client);  // Clean up before reconnecting
+        osDelay(2000);            // Delay before attempting reconnection
+        mqtt_example_init();      // Reinitialize the client
     }
 }
 
