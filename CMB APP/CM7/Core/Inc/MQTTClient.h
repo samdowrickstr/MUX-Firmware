@@ -25,7 +25,7 @@
 extern char mqtt_client_id[20];  // Buffer to hold the unique client ID
 #define MQTT_USER            NULL    /**< @brief MQTT User */
 #define MQTT_PASS            NULL    /**< @brief MQTT Password */
-#define MQTT_KEEP_ALIVE      10      /**< @brief MQTT Keep Alive Interval */
+#define MQTT_KEEP_ALIVE      5      /**< @brief MQTT Keep Alive Interval */
 
 // Will Configuration
 extern char mqtt_will_topic[50];  /**< @brief Dynamic MQTT Will Topic */
