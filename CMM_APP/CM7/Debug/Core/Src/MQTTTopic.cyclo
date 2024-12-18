@@ -1,0 +1,16 @@
+../Core/Src/MQTTTopic.c:38:6:publish_ethernet_link_status	3
+../Core/Src/MQTTTopic.c:64:6:handle_trigger_state	1
+../Core/Src/MQTTTopic.c:75:6:handle_serial_protocol	3
+../Core/Src/MQTTTopic.c:97:6:handle_serial_baudrate	5
+../Core/Src/MQTTTopic.c:147:6:handle_serial_flowcontrol	1
+../Core/Src/MQTTTopic.c:158:6:handle_serial_databits	5
+../Core/Src/MQTTTopic.c:186:6:handle_serial_parity	5
+../Core/Src/MQTTTopic.c:214:6:handle_serial_stopbits	6
+../Core/Src/MQTTTopic.c:244:6:handle_ethernet_speed	1
+../Core/Src/MQTTTopic.c:257:6:handle_enable_iap	2
+../Core/Src/MQTTTopic.c:277:5:ethernet_get_link_status	1
+../Core/Src/MQTTTopic.c:289:6:handle_status_ethernet_link	1
+../Core/Src/MQTTTopic.c:303:6:handle_status_ethernet_activity	1
+../Core/Src/MQTTTopic.c:314:6:handle_status_slot_number	1
+../Core/Src/MQTTTopic.c:319:6:handle_incoming_topic_data	11
+../Core/Src/MQTTTopic.c:393:6:mqtt_subscribe_to_topics	3

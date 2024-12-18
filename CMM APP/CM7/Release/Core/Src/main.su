@@ -1,7 +1,0 @@
-../Core/Src/main.c:652:6:StartDefaultTask	208	static
-../Core/Src/main.c:38:5:_write	12	static,ignoring_inline_asm
-../Core/Src/main.c:243:6:SystemClock_Config	136	static,ignoring_inline_asm
-../Core/Src/main.c:115:5:main	80	static,ignoring_inline_asm
-../Core/Src/main.c:621:6:HAL_GPIO_EXTI_Callback	8	static
-../Core/Src/main.c:783:6:HAL_TIM_PeriodElapsedCallback	0	static
-../Core/Src/main.c:800:6:Error_Handler	0	static,ignoring_inline_asm

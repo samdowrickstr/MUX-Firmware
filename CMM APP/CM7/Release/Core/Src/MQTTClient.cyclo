@@ -1,5 +1,0 @@
-../Core/Src/MQTTClient.c:101:6:mqtt_request_cb	2
-../Core/Src/MQTTClient.c:68:13:mqtt_incoming_data_cb	1
-../Core/Src/MQTTClient.c:85:13:mqtt_incoming_publish_cb	1
-../Core/Src/MQTTClient.c:163:6:mqtt_example_init	2
-../Core/Src/MQTTClient.c:119:13:mqtt_connection_cb	3

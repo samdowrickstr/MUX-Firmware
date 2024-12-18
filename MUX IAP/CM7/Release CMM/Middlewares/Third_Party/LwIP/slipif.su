@@ -1,3 +1,0 @@
-C:/Users/Sam.Dowrick/Documents/Firmware/MUX IAP/Middlewares/Third_Party/LwIP/src/netif/slipif.c:172:1:slipif_output_v4	16	static
-C:/Users/Sam.Dowrick/Documents/Firmware/MUX IAP/Middlewares/Third_Party/LwIP/src/netif/slipif.c:360:1:slipif_init	16	static
-C:/Users/Sam.Dowrick/Documents/Firmware/MUX IAP/Middlewares/Third_Party/LwIP/src/netif/slipif.c:426:1:slipif_poll	56	static
