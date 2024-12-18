@@ -7,7 +7,7 @@
 #include "main.h"
 
 // Define buffer sizes
-#define UART4_RX_BUFFER_SIZE 4096
+#define UART4_RX_BUFFER_SIZE 2048
 #define UART4_TX_BUFFER_SIZE 256
 
 // UART settings

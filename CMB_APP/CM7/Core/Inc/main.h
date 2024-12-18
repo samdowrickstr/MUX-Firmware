@@ -98,6 +98,7 @@ int32_t ETH_PHY_IO_WriteReg(uint32_t DevAddr, uint32_t RegAddr, uint32_t RegVal)
 #define APPLICATION_ADDRESS 0x08000000
 #define IAP_FLAG_ADDRESS  0x38000000  // Address in SRAM4 for IAP flag
 #define IAP_FLAG_VALUE    0xDEADBEEF  // Unique value to indicate IAP mode request
+__attribute__((section(".noinit"))) extern volatile uint32_t iap_flag;
 
 extern int Trigger_Switch;  // Declare it as an integer or boolean in main.h
 /* Global variable for slot number */

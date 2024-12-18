@@ -178,6 +178,13 @@ SECTIONS
     . = ALIGN(8);
   } >RAM_D1
 
+  .noinit (NOLOAD) :
+  {
+    . = ALIGN(4);
+    *(.noinit .noinit.*)
+    . = ALIGN(4);
+  } >RAM_D3
+
   /* Remove information from the compiler libraries */
   /DISCARD/ :
   {

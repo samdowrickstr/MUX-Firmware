@@ -1,7 +1,7 @@
-../Core/Src/main.c:39:5:_write	5
-../Core/Src/main.c:227:6:SystemClock_Config	5
-../Core/Src/main.c:402:6:CheckAndJumpToApplication	2
-../Core/Src/main.c:437:6:configureSMIRegisters	1
-../Core/Src/main.c:100:5:main	9
-../Core/Src/main.c:530:6:HAL_TIM_PeriodElapsedCallback	2
-../Core/Src/main.c:547:6:Error_Handler	1
+../Core/Src/main.c:41:5:_write	5
+../Core/Src/main.c:229:6:SystemClock_Config	5
+../Core/Src/main.c:404:6:CheckAndJumpToApplication	2
+../Core/Src/main.c:439:6:configureSMIRegisters	1
+../Core/Src/main.c:102:5:main	9
+../Core/Src/main.c:532:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:549:6:Error_Handler	1

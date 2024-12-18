@@ -99,6 +99,7 @@ int32_t ETH_PHY_IO_WriteReg(uint32_t DevAddr, uint32_t RegAddr, uint32_t RegVal)
 #define APPLICATION_ADDRESS USER_FLASH_FIRST_PAGE_ADDRESS /* Define the application start address */
 #define IAP_FLAG_ADDRESS  0x38000000  // Address in SRAM4 for IAP flag
 #define IAP_FLAG_VALUE    0xDEADBEEF  // Unique value to indicate IAP mode request
+__attribute__((section(".noinit"))) extern volatile uint32_t iap_flag;
 /* UserID and Password definition */
 #define USERID       "user"
 #define PASSWORD     "stm32"

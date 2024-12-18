@@ -32,6 +32,8 @@ typedef  void (*pFunction)(void);
 void CheckAndJumpToApplication(void);
 void configureSMIRegisters(void);
 
+__attribute__((section(".noinit"))) volatile uint32_t iap_flag;
+
 typedef struct {
     uint8_t state;          // 1 for On, 0 for Off
     float current_limit;    // Current limit with up to 2 decimal points
@@ -544,10 +546,9 @@ void handle_enable_iap(const char *message, size_t len) {
     LWIP_PLATFORM_DIAG(("Handling enable IAP: %.*s\n", (int)len, message));
 
     if (strncmp(message, "ENABLE", len) == 0) {
-        // Write the IAP flag to SRAM4
-        volatile uint32_t *iap_flag_address = (uint32_t *)IAP_FLAG_ADDRESS;
-        *iap_flag_address = IAP_FLAG_VALUE;
-        LWIP_PLATFORM_DIAG(("IAP flag set at address 0x%08X with value 0x%08X\n", (unsigned int)IAP_FLAG_ADDRESS, IAP_FLAG_VALUE));
+        // Write the IAP flag directly to the variable in .noinit section
+        iap_flag = IAP_FLAG_VALUE;
+        LWIP_PLATFORM_DIAG(("IAP flag set with value 0x%08X\n", IAP_FLAG_VALUE));
 
         // Add a small delay to ensure the flag is written
         HAL_Delay(500);
@@ -558,6 +559,7 @@ void handle_enable_iap(const char *message, size_t len) {
         LWIP_PLATFORM_DIAG(("Unknown IAP command: %.*s\n", (int)len, message));
     }
 }
+
 
 /**
   * @brief  Handle the Ethernet link status message.

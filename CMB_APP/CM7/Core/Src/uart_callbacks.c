@@ -1,4 +1,4 @@
-// In uart_callbacks.c
+// uart_callbacks.c
 #include "main.h"
 #include "PMB_comm.h"
 #include "serial_comm.h"

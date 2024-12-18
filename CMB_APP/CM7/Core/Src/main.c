@@ -786,6 +786,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 /* USER CODE END Header_StartDefaultTask */
 void StartDefaultTask(void *argument)
 {
+  osDelay(100);
   /* init code for LWIP */
   MX_LWIP_Init();
   /* USER CODE BEGIN 5 */
@@ -828,7 +829,7 @@ void StartDefaultTask(void *argument)
   mqtt_example_init();  // Initial MQTT connection
   osDelay(50);
   publish_channel_config(mqtt_client, slot);
-  osDelay(10);
+  osDelay(50);
   PMB_Comm_Init();
     for (;;)
     {

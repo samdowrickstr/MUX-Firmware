@@ -18,7 +18,7 @@ const osThreadAttr_t pmbCommTask_attributes = {
 osSemaphoreId_t uart4RxSemaphoreHandle;
 
 // Message queue for UART reception
-#define UART4_RX_QUEUE_LENGTH 10
+#define UART4_RX_QUEUE_LENGTH 2
 #define UART4_RX_ITEM_SIZE    UART4_RX_BUFFER_SIZE
 osMessageQueueId_t uart4RxQueueHandle;
 

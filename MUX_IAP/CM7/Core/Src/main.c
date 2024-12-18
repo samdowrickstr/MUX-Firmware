@@ -34,6 +34,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+  __attribute__((section(".noinit"))) volatile uint32_t iap_flag;
+
 typedef  void (*pFunction)(void);
 extern struct netif gnetif;
 int _write(int file, char *ptr, int len)
@@ -181,15 +183,15 @@ int main(void)
 	  HAL_Delay(1000);
   #endif
 	  MX_LWIP_Process();
-  volatile uint32_t *iap_flag_address = (uint32_t *)IAP_FLAG_ADDRESS;
-  if (*iap_flag_address == IAP_FLAG_VALUE) {
-      *iap_flag_address = 0;  // Clear the flag to prevent repeated entry into IAP mode
+  if (iap_flag == IAP_FLAG_VALUE) {
+      iap_flag = 0;  // Clear the flag to prevent repeated entry into IAP mode
       LWIP_PLATFORM_DIAG(("IAP flag detected. Staying in IAP mode.\n"));
   } else {
       LWIP_PLATFORM_DIAG(("No IAP flag detected. Checking for application.\n"));
-	  HAL_Delay(100);
+      HAL_Delay(100);
       CheckAndJumpToApplication();  // Jump to application if valid
   }
+
   HAL_Delay(50);
   printf("Starting TFTP\n");
   HAL_Delay(50);

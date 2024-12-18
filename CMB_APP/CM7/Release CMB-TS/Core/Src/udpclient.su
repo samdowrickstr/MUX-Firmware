@@ -1,5 +1,0 @@
-../Core/Src/udpclient.c:33:13:udprecv_thread	32	static
-../Core/Src/udpclient.c:97:6:udpsend_trigger	16	static
-../Core/Src/udpclient.c:132:6:udpsend_serial	24	static
-../Core/Src/udpclient.c:173:6:udp_set_server_ip	0	static
-../Core/Src/udpclient.c:184:6:udpclient_init	24	static

@@ -1,3 +1,0 @@
-../Core/Src/flash_if.c:37:6:FLASH_If_Init	1
-../Core/Src/flash_if.c:51:8:FLASH_If_Erase	3
-../Core/Src/flash_if.c:102:10:FLASH_If_Write	6
